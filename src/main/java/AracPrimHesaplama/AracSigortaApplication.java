@@ -36,13 +36,11 @@ public class AracSigortaApplication {
             if(term==1 || term ==2 ){
                 System.out.println("Hesaplama islemi basari ile tamamlandi");
                 // sonucu yazdir
-
                 isFail= false;
             }else{
                 System.out.println("hatali sayi girisi!!!");
                 isFail=true;
             }
-
 
         }while (isFail);//for secmememizin nedeni kac defa yapacak oldugumuzu bilmiyor olmamiz.Bu durumda
         //2 secenek var . While veya do while
