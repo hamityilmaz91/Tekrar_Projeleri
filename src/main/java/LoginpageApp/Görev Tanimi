@@ -1,0 +1,25 @@
+
+Bir siteye üye olma ve giris yapma sayfasi tasarlayiniz.
+
+menu: kullaniciya islem secimi icin menu  gosterilir
+
+uye olma (register ):   Kullanicidan ad soyad ,kullanici adi ,e mail ve sifre bilgileri aliniz.
+                        kullanici adi ve e mail ve sifre birer listede tutulur .
+                        ayni kullanici adi veya email kabul edilmez.
+
+giris(login):   kullanici adi  veya email ile birlikte sifre girilir .
+                kullanici adi veya email bulunamazsa kayitli degil , üye olun uyarisi verilir
+                kullanici adi veya email ile ayni indexte kayitli sifre dogrulanirsa siteye giris yapilir
+
+email validation :  bosluk icermemeli
+                    @ icermeli
+                    gmail.com ,hotmail.com veya yahoo ile bitmeli
+                    mailin kullanici adi kisminda (@ ' ten once ) sadece büyük kücük harf ,rakam yada -._ sembolleri olabilir
+
+sifre validation :  bosluk icermemeli
+                    en az 6 karakter olmali
+                    en az bir tane kücük harf icermeli
+                    en az bir tane büyük harf icermeli
+                    en az bir tane rakam icermeli
+                    en az bir tane sembol icermeli
+
